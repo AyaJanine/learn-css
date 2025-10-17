@@ -1,0 +1,30 @@
+h1 {
+  color: red;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  text-decoration: underline;
+  /* opacity: 20%; */
+  background-color: aquamarine;
+  margin: 0px;
+}
+/* padding */
+/* alternative */
+/* padding :4px 4px 0px 4px; */
+div {
+  border: 2px dashed;
+  margin-top: 30px;
+  text-align: end;
+  border-radius: 12px;
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  margin: 30px 100px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.para {
+  border: 2px dashed;
+  text-align: center;
+  margin:4px 4px ;
+  padding: 20px 30px;
+  background-color: pink;
+}
