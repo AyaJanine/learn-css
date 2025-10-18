@@ -28,3 +28,38 @@ div {
   padding: 20px 30px;
   background-color: pink;
 }
+h1{
+    color: red;
+}
+#first{
+    color: blue;
+}
+#unique {
+text-decoration:underline ;
+}
+div p {
+background-color: chocolate;
+}
+div > .firstparagraph {
+    font-weight: bold;
+}
+/* selects all elements that are the direct children of a specified element */
+div + .plus {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid;
+}
+/* pseudo class */
+.importanttitle:hover{
+    color: red;
+}
+/* pseudo element */
+.pseudo-element::first-letter{
+font-weight: bold;
+text-decoration: underline;
+}
+#first-line::first-line{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline
+}
